@@ -5,10 +5,12 @@
 <title>Car Details</title>
 </head>
 <body bgcolor="cyan">
+<div>
 <form method="post" action="Car" >
 carname : <input type="text" name="cn">
 <br/>
 <input type=submit  value="search">
 </form>
+</div>
 </body>
 </html>
