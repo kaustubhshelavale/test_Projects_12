@@ -1,0 +1,126 @@
+package electricz;
+
+import java.util.*;
+
+public class TwoWheeler extends Electricz
+{
+	
+	
+	TwoWheeler St=new Scooter();
+	Scooter sr=(Scooter)St;
+	
+	
+	public  void twoWheeler()
+	{
+		TwoWheeler St=new Scooter();
+		Scooter sr=(Scooter)St;
+		
+		TwoWheeler Bk=new Bike();
+		Bike bk=(Bike)Bk;
+		
+		TwoWheeler Bc=new Bicycle();
+		Bicycle bc=(Bicycle)Bc;
+		
+		 Electricz pqr=new TwoWheeler();
+		
+		
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for Scooter ");
+	lk.add("2 for bike ");
+	lk.add("3 for Bicycle");
+	lk.add("4 for Compact Scooter");
+	lk.add("5 for Hoverboard");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	
+	
+	if(ch<6)
+	{
+		switch(ch)
+		{
+		case 1: sr.scooter();
+		break;
+		case 2: bk.bike();
+		break;
+		case 3: bc.bicycle();
+		break;
+		case 4: compactScooter();
+		break;
+		case 5: hoverboard();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	else if(ch>5)
+	{
+		System.out.println("please choose correct option");
+		System.out.println("===========================================================");
+		System.out.println(lk);
+		System.out.println("===========================================================");
+		int n=m.nextInt();
+		switch(n)
+		{
+		case 1: sr.scooter();
+		break;
+		case 2: bk.bike();
+		break;
+		case 3: bc.bicycle();
+		break;
+		case 4: compactScooter();
+		break;
+		case 5: hoverboard();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+
+	}
+	else if(ch>5)
+	{
+		System.out.println("please choose correct option");
+		System.out.println("===========================================================");
+		System.out.println(lk);
+		System.out.println("===========================================================");
+		int n=m.nextInt();
+		switch(n)
+		{
+		case 1: sr.scooter();
+		break;
+		case 2: bk.bike();
+		break;
+		case 3: bc.bicycle();
+		break;
+		case 4: compactScooter();
+		break;
+		case 5: hoverboard();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+
+	}
+	}
+	
+	
+	
+	
+	
+	
+	public static void hoverboard() {
+		
+		{
+			System.out.println("i m hoverboard");
+		}
+		
+	}
+
+	private static void compactScooter() {
+		
+		
+	}
+	
+}

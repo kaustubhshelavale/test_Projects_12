@@ -1,0 +1,39 @@
+package XMoto;
+
+public class Xmoto
+{
+	static
+	{
+		System.out.println("tumarichit");
+	}
+	{
+		System.out.println("chut");
+	}
+	Xmoto g=new Xmoto();
+	
+	public static void main(String[] args) 
+	{
+		
+		System.out.println("Hi");
+	}	
+
+}
+class Bicycle extends Xmoto
+{
+	{
+		System.out.println("bye");
+		System.out.println("Wow");
+	}
+}
+class MotorCyle extends Xmoto
+{
+	static
+	{
+		System.out.println("bab");
+	}
+}
+class Scooter extends Xmoto
+{
+	
+	
+}

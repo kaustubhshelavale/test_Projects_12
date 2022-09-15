@@ -1,0 +1,33 @@
+package electricz;
+
+import java.util.Scanner;
+
+public class ThreeWheeler extends Electricz 
+{
+	public  void threeWheeler()
+	{
+		Electricz cz=new ThreeWheeler();
+		{
+			System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+			System.out.println("                  Comming Soon                       ");
+			System.out.println("                  xxxxxxxxxxxx");
+		}
+		
+		Scanner a=new Scanner(System.in);
+		System.out.println("Press 1 for Go back to Homepage ");
+		System.out.println("Press 2 for Cancel");
+		int ch=a.nextInt();
+		
+		if(ch<3)
+		{
+		switch(ch)
+		{
+		case 1: cz.ev();
+		break;
+		case 2: System.out.println("Thank you for comming Visit Again");
+		break;
+		}
+		}
+	}
+
+}

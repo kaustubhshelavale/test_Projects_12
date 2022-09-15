@@ -1,0 +1,406 @@
+package electricz;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Bike extends TwoWheeler 
+{
+
+	public  void bike() 
+	{
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for Revolt Motors");
+	lk.add("2 for Tork Motors");
+	lk.add("3 for Odysse Electric");
+	lk.add("4 for Komaki Motors");
+	lk.add("5 for Cyborg Bikes");
+	lk.add("6 for Kabira Mobility");
+	lk.add("7 for Oben EV");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	
+	if(ch<8)
+	{
+		switch(ch)
+		{
+		case 1: revoltMotors();
+		break;
+		case 2: torkMotors();
+		break;
+		case 3: odysseElectric();
+		break;
+		case 4: komakiMotors();
+		break;
+		case 5: cyborgBikes();
+		break;
+		case 6: kabiraMobility();
+		break;
+		case 7: obenEv();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	else if(ch>8)
+	{
+		System.out.println("please choose correct option");
+		System.out.println("===========================================================");
+		System.out.println(lk);
+		System.out.println("===========================================================");
+		int n=m.nextInt();
+		switch(n)
+		{
+		case 1: revoltMotors();
+		break;
+		case 2: torkMotors();
+		break;
+		case 3: odysseElectric();
+		break;
+		case 4: komakiMotors();
+		break;
+		case 5: cyborgBikes();
+		break;
+		case 6: kabiraMobility();
+		break;
+		case 7: obenEv();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	}
+
+	
+	public  void revoltMotors() {
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for RV400");
+	lk.add("2 for RV300");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	if(ch<3)
+	{
+		switch(ch)
+		{
+		case 1: rv400();
+		break;
+		case 2: rv300();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	}
+	public  void rv400() {
+		
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Revolt RV 400 ==========");
+		}
+	}
+	public  void rv300() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Revolt RV 300 ==========");
+		}
+	}
+	public  void torkMotors() {
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for Kratos");
+	lk.add("2 for Krator R");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	if(ch<3)
+	{
+		switch(ch)
+		{
+		case 1: kratos();
+		break;
+		case 2: kratosR();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	}
+	public  void kratos() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Tork Kratos ==========");
+		}
+	}
+	public  void kratosR() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Tork Kratos R ==========");
+		}
+	}
+	public  void odysseElectric() {
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for Evoqis");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	if(ch<3)
+	{
+		switch(ch)
+		{
+		case 1: evoqis();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	}
+	public  void evoqis() 
+	{
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Odysse Evoqis ==========");
+		}
+	}
+	public  void komakiMotors() {
+		color();
+		purchase();
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for Ranger");
+	lk.add("2 for M-5");
+	lk.add("2 for MX-3");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	if(ch<4)
+	{
+		switch(ch)
+		{
+		case 1: ranger();
+		break;
+		case 2: m5();
+		break;
+		case 3: mx3();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	}
+	public  void ranger() 
+	{
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Komaki Ranger ==========");
+		}
+	}
+	public  void m5() 
+	{
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Komaki M-5 ==========");
+		}
+	}
+	public void mx3() 
+	{
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Komaki MX-3 ==========");
+		}
+	}
+	public  void cyborgBikes() {
+		
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for GT 120");
+	lk.add("2 for Yoda");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	if(ch<3)
+	{
+		switch(ch)
+		{
+		case 1: gt120();
+		break;
+		case 2: yoda();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	
+	
+	}
+	public void gt120() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Cyborg GT-120 ==========");
+		}
+	}
+
+
+	public void yoda() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Cyborg Yoda ==========");
+		}
+	}
+
+
+	public  void kabiraMobility() {
+		
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for KM 4000");
+	lk.add("2 for KM 3000");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	if(ch<3)
+	{
+		switch(ch)
+		{
+		case 1: km4000();
+		break;
+		case 2: km3000();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	
+	}
+	public void km4000() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Kabira KM-4000 ==========");
+		}
+	}
+
+
+	public void km3000() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Kabira KM-3000 ==========");
+		}
+	}
+
+
+	public  void obenEv() {
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for Rorr");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	if(ch<2)
+	{
+		switch(ch)
+		{
+		case 1: rorr();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	}
+
+
+	public void rorr() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Kabira KM-3000 ==========");
+		}
+	}	
+}

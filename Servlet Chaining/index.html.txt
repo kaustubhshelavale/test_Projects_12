@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+</head>
+<body bgcolor="cyan">
+<form action="HelloServlet" method="post">
+<h1>
+Username : <input type="text" name="un">
+<br/>
+Password : <input type="text" name="ps">
+<br/>
+
+<input type="submit" value="Login"> <input type="reset">
+</h1>
+</form>
+</body>
+</html>

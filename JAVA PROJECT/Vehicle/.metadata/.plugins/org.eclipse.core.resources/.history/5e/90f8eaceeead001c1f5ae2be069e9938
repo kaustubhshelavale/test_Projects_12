@@ -1,0 +1,46 @@
+package XMoto;
+
+public class Xmoto
+{
+	public static void main(String[] args) 
+	{
+		
+	}	
+}
+class Bicycle extends Xmoto
+{
+	public static void main(String[] args) {
+		ChooseCompany(3);
+	}
+	public static void ChooseCompany(int a)
+	{
+		switch(a)
+		{
+		case 1: System.out.println("Hero");
+		break;
+		case 2: System.out.println("Hero");
+		break;
+		case 3: System.out.println("Hero");
+		break;
+		case 4: System.out.println("Hero");
+		break;
+		case 5: System.out.println("Hero");
+		break;
+		default:
+		break;
+		}
+	}
+	public static void 
+	
+	
+}
+class MotorCycle extends Xmoto
+{
+	
+	
+}
+class Scooter extends MotorCycle
+{
+
+	
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Car Add</title>
+</head>
+<body bgcolor="orange">
+<form method="post" action="CarAdd" >
+Car no : <input type="text" name="cn">
+<br/>
+Car name : <input type="text" name="cm">
+<br/>
+Car price  : <input type="text" name="cp">
+<br/>
+Car model : <input type="text" name="cl">
+<br/>
+<input type=submit  value="Add Vehical"> <input type="reset">
+</form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+package xshowroom;
+
+public class XTwoWheelers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+class MotorCyle extends XTwoWheelers
+{
+	
+}
+class Scooter extends XTwoWheelers
+{
+	
+	
+}

@@ -1,0 +1,15 @@
+package electricz;
+
+
+public class ThreeWheeler extends Electricz 
+{
+	public  void threeWheeler()
+	{
+		{
+			System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+			System.out.println("                  Comming Soon                       ");
+			System.out.println("                  xxxxxxxxxxxxxxxxxx");
+		}
+	}
+
+}

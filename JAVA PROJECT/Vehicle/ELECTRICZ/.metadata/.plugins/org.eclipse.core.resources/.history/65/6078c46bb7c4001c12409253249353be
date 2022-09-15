@@ -1,0 +1,15 @@
+package electricz;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ThreeWheeler extends Electricz 
+{
+	public static void threeWheeler()
+	{
+		{
+			System.out.println("Comming Soon");
+		}
+	}
+
+}

@@ -1,0 +1,33 @@
+package XMoto;
+
+public class Xmoto
+{
+	public static void main(String[] args) 
+	{
+		
+	}	
+}
+class Bicycle extends Xmoto
+{
+	public static void ChooseCycle(int a)
+	{
+		switch(a)
+		{
+		case 1:
+			break;
+		}
+		
+	}
+	
+	
+}
+class MotorCycle extends Xmoto
+{
+	
+	
+}
+class Scooter extends MotorCycle
+{
+
+	
+}

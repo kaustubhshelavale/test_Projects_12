@@ -1,0 +1,13 @@
+package electricz;
+
+
+public class ThreeWheeler extends Electricz 
+{
+	public  void threeWheeler()
+	{
+		Electricz cz=new Electricz();
+		((Electricz) cz).coms();
+		cz.bye();
+	}
+
+}

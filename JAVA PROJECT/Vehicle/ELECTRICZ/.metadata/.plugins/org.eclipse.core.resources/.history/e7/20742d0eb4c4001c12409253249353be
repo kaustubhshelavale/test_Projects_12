@@ -1,0 +1,421 @@
+package electricz;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Bicycle extends TwoWheeler 
+{
+
+	public  void bicycle() {
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for Hero Lectro");
+	lk.add("2 for Nuze");
+	lk.add("3 for EMotorad");
+	lk.add("4 for Pedaleze");
+	lk.add("5 for Nienty One");
+	lk.add("6 for WaltX");
+	lk.add("7 for Triad");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	
+	if(ch<8)
+	{
+		switch(ch)
+		{
+		case 1: heroLectro();
+		break;
+		case 2: nuzeElectric();
+		break;
+		case 3: eMotorad();
+		break;
+		case 4: pedaleze();
+		break;
+		case 5: nientyOne();
+		break;
+		case 6: waltX();
+		break;
+		case 7: triad();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	else if(ch>8)
+	{
+		System.out.println("please choose correct option");
+		System.out.println("===========================================================");
+		System.out.println(lk);
+		System.out.println("===========================================================");
+		int n=m.nextInt();
+		switch(n)
+		{
+		case 1: heroLectro();
+		break;
+		case 2: nuzeElectric();
+		break;
+		case 3: eMotorad();
+		break;
+		case 4: pedaleze();
+		break;
+		case 5: nientyOne();
+		break;
+		case 6: waltX();
+		break;
+		case 7: triad();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	}
+
+	public  void heroLectro() {
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for F3i");
+	lk.add("2 for F2i");
+	lk.add("3 for C8i");
+	lk.add("4 for F6i");
+	lk.add("5 for C7+");
+	lk.add("6 for C5");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	if(ch<3)
+	{
+		switch(ch)
+		{
+		case 1: rv400();
+		break;
+		case 2: rv300();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	}
+	public  void nuzeElectric() {
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for i1");
+	lk.add("2 for i3");
+	lk.add("3 for S1");
+	lk.add("4 for S3");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	if(ch<3)
+	{
+		switch(ch)
+		{
+		case 1: rv400();
+		break;
+		case 2: rv300();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	}
+	public  void eMotorad() {
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for T-Rex Plus");
+	lk.add("2 for EMX");
+	lk.add("3 for T-Rex");
+	lk.add("4 for Doodle");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	if(ch<3)
+	{
+		switch(ch)
+		{
+		case 1: trexplus();
+		break;
+		case 2: emx();
+		break;
+		case 3: trex();
+		break;
+		case 4: doodle();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	}
+	private void trexplus() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing EMotorad T-Rex Plus ==========");
+		}
+	}
+
+	private void emx() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void trex() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void doodle() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public  void pedaleze() {
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for O2");
+	lk.add("2 for C2");
+	lk.add("3 for H2");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	if(ch<3)
+	{
+		switch(ch)
+		{
+		case 1: o2();
+		break;
+		case 2: c2();
+		break;
+		case 3: h2();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	}
+	private void o2() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Pedaleze O2 ==========");
+		}
+	}
+
+	private void c2() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Pedaleze C2 ==========");
+		}
+	}
+
+	private void h2() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Pedaleze H2 ==========");
+		}
+	}
+
+	public  void nientyOne() {
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for Meraki UX 26T");
+	lk.add("2 for Meraki S7 27.5T");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	if(ch<3)
+	{
+		switch(ch)
+		{
+		case 1: merakiUX();
+		break;
+		case 2: merakiS7();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	}
+	private void merakiUX() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing NientyOne Meraki UX 26T ==========");
+		}
+	}
+
+	private void merakiS7() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing NientyOne Meraki S7 27.5T ==========");
+		}
+	}
+
+	public void waltX() {
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for Spark 1");
+	lk.add("2 for Spark 3");
+	lk.add("3 for Spark 5");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	if(ch<3)
+	{
+		switch(ch)
+		{
+		case 1: spark1();
+		break;
+		case 2: spark3();
+		break;
+		case 3: spark5();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	}
+	private void spark1() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing WaltX Spark 1 ==========");
+		}
+	}
+
+	private void spark3() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing WaltX Spark 3 ==========");
+		}
+	}
+
+	private void spark5() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing WaltX Spark 5 ==========");
+		}
+	}
+
+	public void triad() {
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for E1");
+	lk.add("2 for E3");
+	lk.add("3 for E5");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	int ch=m.nextInt();
+	if(ch<3)
+	{
+		switch(ch)
+		{
+		case 1: e1();
+		break;
+		case 2: e3();
+		break;
+		case 3: e5();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	}
+
+	private void e1() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Triad E1 ==========");
+		}
+	}
+
+	private void e3() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Triad E3 ==========");
+		}
+	}
+
+	private void e5() {
+		color();
+		purchase();
+		System.out.println("Please Enter OTP");
+		Scanner m=new Scanner(System.in);
+		int otp=m.nextInt();
+		if(otp!=33445544)
+		{
+			System.out.println("==========================================================================================");
+			System.out.println("===== Thank you for Purchasing Triad E5 ==========");
+		}
+	}
+}

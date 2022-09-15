@@ -1,0 +1,5 @@
+package electricz;
+
+public class Bicycle extends TwoWheeler {
+
+}

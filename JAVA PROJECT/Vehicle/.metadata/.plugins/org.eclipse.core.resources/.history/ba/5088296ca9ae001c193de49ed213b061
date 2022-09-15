@@ -1,0 +1,81 @@
+package XMoto;
+
+public class Xmoto
+{
+	public static void main(String[] args) 
+	{
+		
+	}	
+}
+class Bicycle extends Xmoto
+{
+	public static void main(String[] args) 
+	{
+		ChooseCompany(1);     //1)Hercules 2)Hero 3)Avon 
+	}
+	public static void ChooseCompany(int a)
+	{
+		switch(a)
+		{
+		case 1: Bicycle.Hercules(a);
+		break;
+		case 2: System.out.println("H");
+		break;
+		case 3: System.out.println("Ho");
+		break;
+		case 4: System.out.println("5difo");
+		break;
+		case 5: System.out.println("eoisufdh");
+		break;
+		default:
+		break;
+		}
+	}
+	public static void Hercules(int a)
+	{
+		switch(a)
+		{
+		case 1: Bicycle.Roadeo(a);
+		break;
+		case 2: System.out.println("osiuyfghw");
+		break;
+		case 3: System.out.println("oiuyrdeoso");
+		break;
+		case 4: System.out.println("oiuyrhdgxo");
+		break;
+		case 5: System.out.println("Hiusf");
+		break;
+		default:
+		break;
+		}
+	}
+	public static void Roadeo(int a)
+	{
+		switch(55)
+		{
+		case 1: System.out.println("Hero");
+		break;
+		case 2: System.out.println("Hero");
+		break;
+		case 3: System.out.println("Hero");
+		break;
+		case 4: System.out.println("Hero");
+		break;
+		case 5: System.out.println("Hero");
+		break;
+		default: System.out.println("press 1 for name. lnpress 2 for color lnpress 3 for price lnpress 4 for buy the cycle ");
+		break;
+	}
+		
+	}
+}
+class MotorCycle extends Xmoto
+{
+	
+	
+}
+class Scooter extends MotorCycle
+{
+
+	
+}

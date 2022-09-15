@@ -1,0 +1,9 @@
+package electricz;
+
+public class Scooter {
+
+	public Scooter() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

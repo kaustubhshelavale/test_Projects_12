@@ -1,0 +1,22 @@
+package XMoto;
+
+public class Xmoto 
+{
+	public static void main(String[] args) 
+	{
+	}	
+
+}
+class Bicycle extends Xmoto
+{
+	
+}
+class MotorCyle extends Xmoto
+{
+	
+}
+class Scooter extends Xmoto
+{
+	
+	
+}

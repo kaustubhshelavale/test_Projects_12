@@ -1,0 +1,167 @@
+package electricz;
+
+import java.util.*;
+
+public class Electricz 
+{	
+	
+	static
+	{
+		System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+		System.out.println("  xx          Welcome to the Electricz                xx  ");
+		
+	}
+
+	public static void main(String[] args) 
+	{
+		Electricz cz=new Electricz();
+		
+		cz.qr();
+		
+		cz.ev();
+		
+		}
+	
+	public void ev()
+	{
+		TwoWheeler xy=new Bike();
+		TwoWheeler yz=new Bicycle();
+		TwoWheeler sr=new Scooter();
+		
+		Electricz tw=new ThreeWheeler();
+		ThreeWheeler tr=(ThreeWheeler)tw;
+		
+		Electricz fw=new FourWheeler();
+		FourWheeler fr=(FourWheeler)fw;
+		
+		Scanner a=new Scanner(System.in);
+		System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+		System.out.println("                  Select the vehicle                       ");
+		System.out.println("                  xxxxxxxxxxxxxxxxxx");
+		ArrayList ar=new ArrayList();
+		ar.add("1 for TwoWheeler");
+		ar.add("2 for ThreeWheeler");
+		ar.add("3 for FourWheeler");
+		System.out.println(ar);
+		System.out.println("===========================================================");
+		
+		int ch=a.nextInt();
+		
+		if(ch<4)
+		{
+		switch(ch)
+		{
+		case 1: xy.twoWheeler();
+		break;
+		case 2: tr.threeWheeler();
+		break;
+		case 3: fr.fourWheeler();
+		break;
+		}
+		}
+		
+		else if(ch>3)
+		{
+			System.out.println("please choose correct option");
+			System.out.println("=========================================================================================");
+			System.out.println(ar);
+			System.out.println("=========================================================================================");
+			int n=a.nextInt();
+			switch(n)
+			{
+			case 1: xy.twoWheeler();
+			break;
+			case 2: tr.threeWheeler();
+			break;
+			case 3: fr.fourWheeler();
+			break;
+			}
+		}
+	}
+	
+
+		public void purchase()
+		{
+			System.out.println("==========================================================================================");
+			Scanner m=new Scanner(System.in);
+			System.out.println("Please Enter Your First Name");
+			String firstname=m.nextLine();
+			System.out.println("Please Enter Your Last Name");
+			String lastname=m.nextLine();
+			System.out.println("Please Enter Your Address");
+			String address=m.nextLine();
+			System.out.println("Please Enter Your Phone Number");
+			String number=m.nextLine();
+			System.out.println("Name :"+firstname +" " +lastname);
+			System.out.println("Address :"+address);
+			System.out.println("PH number :"+number);
+			System.out.println("==========================================================================================");
+		}
+		
+		public void color()
+		{
+			System.out.println("=========================================================");
+			System.out.println("                  Select the color                       ");
+			ArrayList ar=new ArrayList();
+			ar.add("1 for Black");
+			ar.add("2 for White");
+			ar.add("3 for Red");
+			System.out.println(ar);
+			System.out.println("==========================================================================================");
+			Scanner m=new Scanner(System.in);
+			int color=m.nextInt();
+			
+			if(color<4)
+			{
+				System.out.println("==========================================================================================");
+			switch(color)
+			{
+			case 1: System.out.println("The color you selected is Black");
+			break;
+			case 2: System.out.println("The color you selected is White");
+			break;
+			case 3: System.out.println("The color you selected is Red");
+			break;
+			}
+			}
+			
+			System.out.println("==========================================================================================");
+			System.out.println(" For Purchase the vehicle");
+			System.out.println("Fill the personal Information");	
+		}
+		
+		public void bye()
+		{
+			Electricz cz=new Electricz();
+			Scanner a=new Scanner(System.in);
+			System.out.println("==========================================================================================");
+			System.out.println("=== 1 for Go back to Homepage ===");
+			System.out.println("=== 2 for Cancel              ===");
+			System.out.println("==========================================================================================");
+			int ch=a.nextInt();
+			
+			if(ch<3)
+			{
+			switch(ch)
+			{
+			case 1: cz.ev();
+			break;
+			case 2: System.out.println("======Thank you for coming =========");
+					System.out.println("     ====  Visit Again!  ====");
+			break;
+			}
+			}
+		}
+		
+		public void qr()
+		{
+			System.out.println( " \\u25A0 # # #  #######"
+					    +"\n" +"#######  #####  #######"
+					    +"\n" +"# ### #  ## ##  # ### #"
+					    +"\n" +"# ### #   ###   # ### #"
+					    +"\n" +"# ### #  # #    # ### #"
+					    +"\n" +"#######  # # #  #######");
+		}
+		
+	}
+

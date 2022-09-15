@@ -1,0 +1,93 @@
+package electricz;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class FourWheeler extends Electricz 
+{
+	public static void driver()
+	{
+		
+	}
+	public  void fourWheeler()
+	{
+		Scanner m=new Scanner(System.in);
+		System.out.println("==========================================================================================");
+	ArrayList lk=new ArrayList();
+	lk.add("1 for Tata ");
+	lk.add("2 for Hyundai ");
+	lk.add("3 for Mahindra");
+	lk.add("4 for MG Motor");
+	System.out.println(lk);
+	System.out.println("==========================================================================================");
+	
+	int ch=m.nextInt();
+	
+	if(ch<4)
+	{
+		switch(ch)
+		{
+		case 1: tata();
+		break;
+		case 2: hyundai();
+		break;
+		case 3: mahindra();
+		break;
+		case 4: mgMotor();
+		break;
+		}
+	}
+	else if(ch>3)
+	{
+		System.out.println("please choose correct option");
+		System.out.println("===========================================================");
+		System.out.println(lk);
+		System.out.println("===========================================================");
+		int n=m.nextInt();
+		switch(n)
+		{
+		case 1: tata();
+		break;
+		case 2: hyundai();
+		break;
+		case 3: mahindra();
+		break;
+		case 4: mgMotor();
+		break;
+		default : System.out.println("Please choose right key");
+		break;
+		}
+	}
+	
+	}
+
+	public  void tata()
+	{
+		{
+			System.out.println("Comming Soon");
+		}	
+	}
+	
+	public  void hyundai()
+	{
+		{
+			System.out.println("Comming Soon");
+		}
+	}
+	
+	public  void mahindra()
+	{
+		{
+			System.out.println("Comming Soon");
+		}
+	}
+	
+	public  void mgMotor()
+	{
+		{
+			System.out.println("Comming Soon");
+		}
+	}
+	
+	
+}

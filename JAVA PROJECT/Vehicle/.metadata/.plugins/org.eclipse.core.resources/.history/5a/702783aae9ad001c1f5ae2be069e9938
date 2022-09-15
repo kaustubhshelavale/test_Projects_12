@@ -1,0 +1,24 @@
+package XMoto;
+
+public class Xmoto
+{
+	public static void main(String[] args) 
+	{
+		MotorCycle ref=new MotorCycle();
+		System.out.println("Hi");
+		new Bicycle();
+	}	
+}
+class Bicycle extends Xmoto
+{
+	
+}
+class MotorCycle extends Xmoto
+{
+	
+	
+}
+class Scooter extends MotorCycle
+{
+	
+}
